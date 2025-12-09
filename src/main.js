@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import { createPinia } from 'pinia'
 import axios from 'axios'
+import './assets/main.css'
 
 // 建立 app
 const app = createApp(App)
